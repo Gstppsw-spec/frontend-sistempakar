@@ -1,0 +1,112 @@
+.body-cont-riwayat {
+  background-image: url("../image/depresi.jpg");
+  background-size: cover;
+  width: auto;
+  height: 200px;
+  padding: 100px;
+  display: flex;
+  justify-content: center; /* mengatur posisi horizontal */
+  align-items: center;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-direction: column;
+}
+
+.body-cont span {
+  align-items: center;
+  top: 50%;
+  right: 50%;
+  text-align: left;
+  font-size: 12px;
+  color: white;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.body-cont h1 {
+  text-align: left;
+}
+
+.body-cont button {
+  padding: 10px;
+  justify-content: left;
+}
+
+.nav-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+  margin-top: 1em;
+  border-color: black;
+}
+
+.nav-log{
+  margin-right: -30em;
+}
+.navi{
+  text-decoration: none;
+  color: black;
+}
+.navi > span {
+  margin: 0 2em 0 0;
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.navi > span:hover {
+  cursor: pointer;
+  color: skyblue;
+}
+
+.nav-logo {
+  display: flex;
+  margin-left: 3em;
+  /* justify-content: space-around; */
+}
+.nav-logo > span {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  /* font-weight: bold; */
+}
+.navigasi_bar {
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  /* height: auto; */
+}
+
+.con-judul span{
+    font-size: 13px;
+    margin-top: -30px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-mah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+}
+
+.con span{
+    font-weight: bold;
+}
+
+.link-logo {
+  text-decoration: none;
+  color: black;
+}

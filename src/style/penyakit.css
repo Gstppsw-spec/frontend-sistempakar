@@ -1,0 +1,9 @@
+.poin-penyakit{
+    display: flex;
+    flex-direction: column;
+}
+
+.nama{
+    display: flex;
+    flex-direction: column;
+}

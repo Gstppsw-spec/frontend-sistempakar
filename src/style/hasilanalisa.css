@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+  }
+
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+
+.table-container {
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+
+.table-container h4{
+    text-align: left;
+}
+
+.user-info {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+.body-hasil{
+    
+}

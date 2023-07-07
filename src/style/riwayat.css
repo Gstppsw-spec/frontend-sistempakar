@@ -1,0 +1,49 @@
+.body-cont-riwayat {
+  background-image: url("../image/depresi.jpg");
+  background-size: cover;
+  width: auto;
+  height: 100px;
+  padding: 100px;
+  display: flex;
+  justify-content: center; /* mengatur posisi horizontal */
+  align-items: center;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-direction: column;
+}
+.nav-login > button {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 6px;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.nav-login > button:hover {
+  cursor: pointer;
+  color: skyblue;
+}
+
+/* .tabel-riwayat {
+  width: auto;
+  align-items: center;
+  justify-content: center;
+} */
+.tabel-riwayat {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+  }
+th,
+td {
+  width: 100px;
+  text-align: center;
+}
+/* table {
+  width: 100%;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+} */

@@ -1,0 +1,35 @@
+.navi > span {
+  margin: 0 2em 0 0;
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navi > span:hover {
+  cursor: pointer;
+  color: skyblue;
+}
+
+.nav-logo {
+  display: flex;
+  margin-left: 2em;
+}
+.nav-logo > span {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  /* font-weight: bold; */
+  text-decoration: none;
+}
+.navigasi_bar {
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  height: auto;
+  position: sticky;
+  top: 0px;
+}
+
+.link-logo {
+  text-decoration: none;
+}

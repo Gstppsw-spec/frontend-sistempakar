@@ -1,0 +1,249 @@
+/* .dataDiri {
+  display: flex;
+  justify-content: space-around;
+}
+
+.datadiriPertama {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+
+.datadiriPertama label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.datadiriPertama input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+
+header {
+  margin: 50px;
+}
+
+.gejalaPasien label {
+  text-align: left;
+  margin-left: 0;
+}
+
+.formGejala {
+} */
+
+
+/* header {
+  margin: 50px;
+  background-color: black;
+} */
+
+.dataDiri {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.datadiriFirst {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.datadiriPertama {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"] {
+  padding-right: 50px;
+  padding-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.jeniskelamin{
+  padding-right: 100px;
+  padding-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="number"] {
+  padding-right: 50px;
+  padding-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 8px #0066cc;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 8px #0066cc;
+}
+
+/* Styling untuk tombol Submit */
+.submit-button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0052a3;
+}
+
+.submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 8px #66afe9;
+}
+
+.body {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  flex: 1 1 auto;
+  
+}
+
+.diagnosa-container {
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  width: 40%;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+td {
+  width: 60%;
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+select:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 8px #66afe9;
+}
+
+.pilihGejala {
+  margin-bottom: 20px;
+}
+
+.pilihGejala span {
+  text-align: left;
+}
+
+.body-cont {
+  background-image: url("../image/depresi.jpg");
+  background-size: cover;
+  width: auto;
+  height: 100px;
+  padding: 100px;
+  display: flex;
+  justify-content: center; /* mengatur posisi horizontal */
+  align-items: center;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-direction: column;
+
+}
+
+.body-span {
+  align-items: center;
+  top: 50%;
+  right: 50%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nav-login > span {
+  margin: 0 2em 0 0;
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.nav-login > span:hover {
+  cursor: pointer;
+  color: skyblue;
+}
+
+.nav-logo {
+  display: flex;
+  margin-left: 2em;
+  margin-top: 20px;
+}
+.nav-logo > span {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  /* font-weight: bold; */
+}
+.navigasi_bar {
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  height: 70px;
+  /* position: sticky;
+  top: 0px; */
+}
+
+.body-cont h1,h5{
+  color: white;
+}

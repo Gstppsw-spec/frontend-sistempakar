@@ -1,0 +1,38 @@
+.login{
+    padding: 50px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    align-items: center;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+
+.body-form{
+    background-color: gray;
+    padding: 100px;
+}
+
+.email, .password {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+  }
+
+  .button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ad241b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+  }
